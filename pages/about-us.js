@@ -1,10 +1,10 @@
 import Link from 'next/link'
 
-export default function Index(){
+export default function AboutUs(){
     return (
         <div>
-            <h1>Home page</h1>
-            <Link href={'/about-us'}>Go to /about-us</Link>
+            <h1>About us</h1>
+            <Link href={'/'}>Go back to /</Link>
         </div>
     )
 }
